@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto · Instituto de Ciencias y Tecnología de Talagante</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="contacto.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container-fluid px-lg-4">
+    <a class="navbar-brand" href="index.html"><img src="imagenes/logo.png" alt="ICT Talagante"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="quiene.html">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="admision.html">Proyecto Educativo</a></li>
+        <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link" href="perfil.html">Perfil del estudiante</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="pagina-hero">
+  <div class="container">
+    <h1><span class="ini">C</span>ontacto</h1>
+    <p>Escríbenos y te responderemos a la brevedad.</p>
+  </div>
+</header>
+<main>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-5"><div class="panel">
+        <h2 class="titulo"><span class="ini">F</span>ormulario de <span class="ini">C</span>ontacto</h2>
+        <form action="contacto.php" method="post">
+          <div class="mb-3"><input type="text" name="contact_name" class="form-control" placeholder="Nombre" aria-label="Nombre" required></div>
+          <div class="mb-3"><input type="email" name="contact_email" class="form-control" placeholder="Email" aria-label="Email" required></div>
+          <div class="mb-3"><input type="text" name="contact_subject" class="form-control" placeholder="Asunto" aria-label="Asunto" required></div>
+          <div class="mb-3"><textarea name="contact_message" class="form-control" rows="5" placeholder="Escriba su mensaje" aria-label="Mensaje" required></textarea></div>
+          <button type="submit" class="btn btn-rojo">Enviar</button>
+        </form>
+        <p class="mt-4 mb-0"><strong>Contáctanos por WhatsApp:</strong> <a href="https://wa.me/56945770442" target="_blank" rel="noopener">+56 9 4577 0442</a></p>
+      </div></div>
+      <div class="col-lg-7"><div class="panel">
+        <h2 class="titulo"><span class="ini">N</span>uestra <span class="ini">U</span>bicación</h2>
+        <p>Balmaceda N°627, Talagante.</p>
+        <iframe title="Mapa del instituto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.847843782743!2d-70.92835758419717!3d-33.66110421574162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662e3cb73341d15%3A0xaea0597e387bb54d!2sBalmaceda%20627%2C%20Talagante%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1666735287247!5m2!1ses-419!2scl" width="100%" height="380" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div></div>
+    </div>
+  </div>
+</main>
+
+<footer class="py-4 text-center redes">
+  <a href="https://www.youtube.com/channel/UCMY1dTejyFHqlKs6dfaOiuQ/featured" target="_blank" rel="noopener" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+  <a href="https://m.facebook.com/ict.talagante.oficial" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+  <a href="https://twitter.com/ict_talagante" target="_blank" rel="noopener" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+  <a href="https://instagram.com/ict_talagante?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+</footer>
+
+<a id="whatsapp" href="https://wa.me/56945770442" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp"><i class="bi bi-whatsapp"></i></a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

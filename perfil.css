@@ -1,0 +1,64 @@
+/* ===== Variables y base ===== */
+:root {
+  --rojo: #42c1c3;
+  --oscuro: #16191d;
+  --bs-body-font-family: 'Open Sans', system-ui, sans-serif;
+}
+body { background: var(--oscuro); color: #1d2329; padding-top: 5.5rem; }
+:focus-visible { outline: 3px solid var(--rojo); outline-offset: 2px; }
+
+/* ===== Barra de navegación ===== */
+.navbar { background: rgba(0, 0, 0, .78); backdrop-filter: blur(6px); }
+.navbar .nav-link {
+  color: #fff; text-transform: uppercase; font-size: .82rem;
+  letter-spacing: .05em; border-bottom: 3px solid transparent;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active { border-bottom-color: var(--rojo); }
+.navbar-brand img { height: 42px; }
+
+/* ===== Paneles, títulos y botones ===== */
+.panel {
+  background: rgba(255, 255, 255, .93);
+  border-radius: 4px;
+  padding: 1.75rem;
+}
+.titulo { font-weight: 700; font-size: 1.4rem; margin-bottom: 1rem; }
+.titulo .ini { color: var(--rojo); }
+
+.btn-rojo { 
+    background: var(--rojo); 
+    color: #fff; border: 0;
+     font-weight: 600; 
+    }
+.btn-rojo:hover {
+     background: #b80000; 
+     color: #fff;
+     }
+
+/* ===== Cabecera del estudiante ===== */
+.avatar {
+  width: 100px; height: 100px; border-radius: 50%;
+  background: var(--rojo); color: #fff; border: 4px solid #fff;
+  display: grid; place-items: center;
+  font-size: 2.1rem; font-weight: 700; flex-shrink: 0;
+}
+.cabecera h1 { 
+    color: #fff; 
+    font-size: 1.8rem;
+     font-weight: 700;
+    }
+
+/* ===== Datos, asistencia y notas ===== */
+.datos dt { color: #5d6670; font-weight: 400; font-size: .85rem; }
+.datos dd { font-weight: 600; margin-bottom: .8rem; }
+
+.progress { height: 10px; }
+.progress-bar { background: var(--rojo); }
+
+.nota-ok { color: #0b6b3a; font-weight: 700; }
+.nota-baja { color: var(--rojo); font-weight: 700; }
+
+/* ===== Redes sociales ===== */
+.redes a { color: #fff; font-size: 1.5rem; margin: 0 .6rem; }
+.redes a:hover { color: var(--rojo); }
